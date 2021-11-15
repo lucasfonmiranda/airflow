@@ -64,7 +64,7 @@ In the simplest case building your image consists of those steps:
    In case you use some kind of registry where you will be using the image from, it is usually named
    in the form of ``registry/image-name``. The name of the image has to be configured for the deployment
    method your image will be deployed. This can be set for example as image name in the
-   `docker-compose file <running-airflow-in-docker>`_ or in the `Helm chart <helm-chart>`_.
+   `docker-compose file <running-airflow-in-docker>`_ or in the [Helm chart](https://helm.sh/).
 
 .. code-block:: shell
 
